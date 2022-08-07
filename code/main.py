@@ -8,6 +8,8 @@ class Game:
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((WIDTH, HEIGTH))
+        # Set the title of the window
+        pygame.display.set_caption('py-Zelda')
         self.clock = pygame.time.Clock()
 
     def run(self):
